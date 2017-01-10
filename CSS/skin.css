@@ -1,0 +1,461 @@
+@CHARSET "UTF-8";
+
+@import url(http://underworldunderwear.co.uk/ebay-listing-template/responsive.css);
+
+.it--slogan:before {
+content: "Brands you want at prices you need";
+}
+.it--description:before {
+content: "Underworld Underwear Ltd are a small friendly company offering a wide selection of branded mens and womens underwear, swimwear and sportswear at fabulous value for your pennies.";
+}
+
+.it--logo {
+background-image: url(http://i896.photobucket.com/albums/ac166/tsmithpb/logoV0-2_zpsgaonfwsp.png);
+}
+.it--banner {
+background-image: url(http://statictmpl.i-ways.net/img/ebay_fashion/Test-Name/BannerV1-ebay.jpg);
+}
+
+.it--wrapper {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 0 50px;
+}
+#it--header {
+    position: relative;
+}
+#it--header .it--wrapper {
+background: #000000;
+color: #ffffff;
+width: auto;
+}
+
+#it--footer .it--wrapper {
+background-image: url(http://i896.photobucket.com/albums/ac166/tsmithpb/footer-bannerv1_zpswil7qxhf.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+#it--header .it--wrapper {
+    height: 180px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+border-bottom: 15px solid #fff500;
+}
+
+#it--footer .it--wrapper {
+border-top: 15px solid #fff500;
+padding-bottom: 220px;
+}
+
+#it--header .it--logo  {
+    height: 150px;
+    background-position: 0 0;
+    background-size: auto 100%;
+}
+
+#it--header .it--slogan {
+    margin: 10px 0 0 0;
+color: #ffffff;
+font-size:  14px;
+}
+
+#it--header .it--search {
+	margin: 10px 0 0 0;
+}
+
+#it--header .it--search .button {
+	color: #ffffff;
+	background-color: #000000;
+	border: 2px groove yellow;
+	border-radius: 2px;
+}
+
+.nav-bar {
+	width: 100%;
+	text-align: center;
+}
+
+.nav-bar .nav-bar-buttons {
+	background-color: #000000;
+	border: 5px solid #000000;
+	color: #f9f500;
+	padding: 15px 32px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 24px;
+	margin: auto;
+	cursor: pointer;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+.nav-bar .nav-bar-buttons:hover {
+	background-color: #000000;
+	border: 5px solid #f9f500;
+	text-decoration: none;
+}
+
+.nav-bar .nav-bar-buttons a:link, a:visited {
+	color: #f9f500;
+	text-decoration: none;
+}
+
+#it--content .title {
+    font-size: 24px;
+}
+#it--header .it--wrapper:before {
+content: "Underworld Underwear Ltd are a small friendly company offering a wide selection of branded mens and womens underwear, swimwear and sportswear at fabulous value for your pennies.";
+float: right;
+text-align: right;
+width: 30%;
+font-size: 90%;
+margin-top: 20px;
+opacity: .7;
+line-height: 150%;
+}
+
+.it--banner {
+    height: 450px;
+    display: block;
+    position: relative;
+}
+
+#it--content .attributes table {
+    width: 100%;
+    text-align: left;
+    font-size: 90%;
+}
+
+#it--content .attributes th,
+#it--content .attributes td {
+    padding: 2px;
+}
+#it--content .attributes th {
+    background: #f2f2f2;
+}
+#it--content .attributes td {
+    border-bottom: 1px solid #ddd;
+}
+#it--content .attributes tr td:first-child {
+    width: 60%;
+}
+#it--content .attributes tr:last-child td {
+    border: none;
+}
+
+#it--content .image {
+    margin-top: 70px;
+    text-align: right;
+}
+#it--content .image img {
+    max-width: 90%;
+    min-width: 90%;
+    display: inline;
+}
+
+/** #it--content .descrption b.a, a, img {
+	display: none;
+} **/
+
+#it--footer .it--logo {
+    background-image: url(http://i896.photobucket.com/albums/ac166/tsmithpb/logoV0-3_zpsbdfuykqe.png);
+    height: 100px;
+    left: 0;
+    position: relative;
+    top: 20px;
+    width: 100%;
+    background-size: 250px;
+}
+#it--footer .it--slogan {
+    margin: 20px 0 0 0;
+    font-size: 90%;
+    font-weight: bold;
+    color: #000000;
+    -webkit-text-stroke: 0.4px #ffffff;
+}
+#it--footer .it--description {
+    font-size: 80%;
+    font-weight: bold;
+    margin: 20px 0 0 0;
+    width: 18%;
+    color: #000000;
+    -webkit-text-stroke: 0.4px #ffffff;
+}
+
+#LeftPanel {
+background: #000000;
+color: #ffffff;
+}
+#CentralArea {
+    padding-top: 20px;
+}
+
+.pagecontainer #it--header {
+    display: block;
+    margin-bottom: -18px;
+}
+
+.pagecontainer #it--header .it--logo {
+    position: absolute;
+    width: 230px;
+    height: 450px;
+background-color: #000000;
+top: 0;
+left: 0;
+background-size: auto 40px;
+background-position: 30px 100px;
+opacity: .8;
+}
+
+.pagecontainer #it--header .it--slogan {
+    position: absolute;
+    margin: 0;
+    top: 150px;
+    left: 30px;
+    font-size: 95%;
+}
+.pagecontainer #it--header .it--slogan:after {
+content: "Underworld Underwear Ltd are a family company offering a wide selection of branded lingerie, swimwear and sportswear up to 75% off the retail price.";
+color: #ffffff;
+opacity: .6;
+display: block;
+width: 170px;
+margin-top: 20px;
+font-size: 90%;
+line-height: 150%;
+}
+
+table.v4acpcont {
+    background: none;
+    margin-bottom: 0;
+    padding: 10px 20px 20px;
+}
+
+.v4acp_head .v4accent,
+.v4mid .ttl {
+    display: none;
+}
+table.v4midBox{
+    border: none;
+}
+table.v4acp tr.v4acp_head td.v4title {
+    background: none;
+    color: #000;
+    display: block;
+    padding: 5px 0 !important;
+}
+table.v4midBox tr.v4acp_mid td.v4mid {
+    background: none;
+    padding: 0;
+}
+table.v4clp td ul {
+    margin: 0;
+}
+body #LeftPanel a:link, body .g-novisited a:visited,
+.v4mid a ,
+.lcat .cnt {
+color: #ffffff;
+font-weight: normal;
+}
+table.v4clp td {
+    padding-top: 0;
+}
+.v4mid li {
+    margin: 2px 0 !important;
+    list-style: none;
+}
+.v4acp font {
+    color: #000;
+}
+.r3_t i, .r3_bl i,
+.r3_hm, .r3_c, .r3_s {
+    border: none;
+}
+.ctrlbr {
+    border: none;
+    padding: 10px 0;
+    margin-top: -1.5em;
+}
+td#CentralArea span.pdmt {
+    float: right;
+    padding: 0;
+}
+span.pdmt .cur {
+    color: #000;
+    display: inline-block;
+    font-weight: normal;
+    height: 20px;
+    line-height: 20px;
+    padding: 7px 10px;
+    background: #fff;
+}
+.stBadge-accent,
+td#CentralArea div.v4stabl,
+td#CentralArea span.pdmt:first-child,
+.r3_t, .r3_t b, .r3_bl, .r3_bl b,
+.cmpBr,
+span.pdmt img,
+span.pdmt .label,
+.itemseparator,
+.mi,
+.clr.time2,
+.ttl.g-std img,
+.v4title h2,
+.whiter-w {
+    display: none;
+}
+
+.grid td.left,
+.rs_box,
+td#CentralArea div.dynpg {
+    border: none;
+}
+span.pdmt:after {
+    display: inline-block;
+    content: '?';
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    background: #fff;
+    color: #000;
+    text-align: center;
+    font-weight: normal;
+    vertical-align: top;
+    font-size: 10px;
+}
+.fpcc .countClass {
+    color: #000;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.pageminwidth {
+    background: #f2f2f2;
+}
+
+.grid {
+    text-align: right;
+}
+
+.grid td.gallery {
+    background: #fff;
+    display: inline-block;
+    padding: 7px 0 7px 20px;
+    width: 30%;
+    vertical-align: top;
+    position: relative;
+    padding-bottom: 30px;
+    text-align: left;
+    margin: 0 0 10px 15px;
+}
+table.gallery {
+    height: 300px;
+    background: #fff;
+    position: relative;
+    display: block;
+}
+.grid td.gallery:first-child {
+    margin-left: 0;
+}
+
+table.gallery td.picture div.image a {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    z-index: 10;
+}
+
+.ttl.g-std {
+    padding: 5px 0;
+}
+.bin.g-b, .bid.g-b {
+background: #fff500;
+color: #ffffff;
+bottom: -30px;
+display: block;
+font-size: 120%;
+font-weight: normal;
+padding: 10px 20px;
+position: absolute;
+right: 0;
+text-align: left;
+width: 93.5%;
+}
+
+.bin.g-b:before, .bid.g-b:before {
+    border-width: 8px;
+    content:"";
+    position:absolute;
+    bottom:0;
+    right:0;
+    border-style:solid;
+border-color: #fff500 #000000 #000000 #fff500;
+display:block;
+width:0;
+opacity: .5;
+}
+
+
+.ttl.g-std a {
+    color: #000;
+    font-size: 110%;
+}
+.picture.camera .image {
+    width: 100% !important;
+}
+.picture.camera .image img {
+    max-width: 100%;
+    max-height: 150px;
+}
+table.pgbc {
+    border: none;
+    background: none;
+}
+.lcat ul.lev1 > li:after {
+    content: '?';
+    float: right;
+    font-size: 8px;
+    color: #666;
+    line-height: 18px;
+}
+.lcat ul.lev1 {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #333;
+}
+
+#storercp {
+border-top: 15px solid #fff500;
+}
+
+#storercp:before {
+content: "Underworld Underwear Ltd are a family company offering a wide selection of branded lingerie, swimwear and sportswear up to 75% off the retail price.";
+display: block;
+background: #000000 url(http://statictmpl.i-ways.net/img/ebay_fashion/Test-Name/Untitled-1.png) 30px 20px no-repeat;
+background-size: auto 60px;
+color:  #ffffff;
+padding: 130px 900px 20px 30px;
+position: relative;
+font-size: 90%;
+}
+.stBadge:before {
+content: "Famous brands at huge discounts";
+color:  #ffffff;
+display: block;
+position: relative;
+top: 120px;
+left: 30px;
+font-size: 95%;
+z-index: 10;
+}
+
+.r3_cm,
+.rs-pview {
+    padding: 0 !important;
+}
+
+.stBadge {
+    margin-top: -17px;
+}

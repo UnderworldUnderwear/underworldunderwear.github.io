@@ -1,0 +1,105 @@
+@CHARSET "UTF-8";
+
+@media only screen and (max-width:1150px) {
+	.grid td.gallery {
+		width: 29% !important;
+	}
+	.bin.g-b {
+		width: 91.5% !important;
+	}
+}
+@media only screen and (max-width:960px)  and (min-width:480px) {
+
+	.it--wrapper,
+	.pagecontainer {
+		width: 960px !important;
+	}
+	.it--banner {
+		height: 380px !important;
+	}
+	#storercp::before {
+	  	padding-right: 750px !Important;
+	}
+	.bin.g-b {
+		width: 187px !Important;
+	}
+	#it--content .description b.a, a, img {
+		display: none;
+	}
+}
+
+@media only screen and (max-width:479px) {
+	.it--logo {
+		background-position: center 0 !important;
+	}
+	.it--logo  {
+		width: 100% !important;
+		height: 30px !important;
+		float: none !important;
+		position: relative !important;
+		top: 0 !important;
+		left: 0 !important;
+		margin: 0 !important;
+		background-size: auto 100% !important;
+	}
+	#it--header .it--slogan {
+		position: relative !important;
+		left: auto !important;
+		top: auto !important;
+		text-align: center;
+		padding: 0 7px 0 7px;
+	}
+
+	#it--header .it--wrapper, #it--footer .it--wrapper {
+		width: 100% !important;
+		padding: 20px 0 !important;
+		height: auto !important;
+	}
+
+	#it--content .left {
+		margin-left: 1%;
+		margin-right: 1%;
+	}
+
+	#it--content .image {
+		margin-top: 0 !important;
+		text-align: center !important;
+	}
+
+	#it--content .image img {
+		max-width: 100% !important;
+		min-width: 90%;
+	}
+
+	#it--content .description b.a, a, img {
+		display: none;
+	}
+
+	#it--header .it--wrapper::before {
+		display: none;
+	}
+
+	#it--footer .it--wrapper {
+		background-image: url(http://i896.photobucket.com/albums/ac166/tsmithpb/footer-bannerv1-mobile-479px_zps0qurdx3y.jpg);
+	}
+
+	#it--footer .it--slogan {
+		text-align: center;
+		margin: 5px 0 !important;
+		left: 0 !important;
+		padding: 10px 7px 0 7px;
+		font-size: 120% !important;
+	}
+
+	#it--footer .it--description {
+		width: 100% !important;
+		text-align: center;
+		font-size: 100% !important;
+	}
+
+	#it--wrapper {
+		width: 100%;
+		padding: 0 !important;
+
+	}
+}
